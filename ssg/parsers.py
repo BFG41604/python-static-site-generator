@@ -51,7 +51,7 @@ class MarkdownParser(Parser):
 
 
 
-class RestructuredTextParser(Parser):
+class ReStructuredTextParser(Parser):
     extensions = [".rst"]
 
     def parse(self, path, source, dest):
